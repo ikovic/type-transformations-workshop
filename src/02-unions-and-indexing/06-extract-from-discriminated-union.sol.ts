@@ -14,6 +14,8 @@ export type Event =
       event: KeyboardEvent;
     };
 
-type ClickEvent = unknown;
+// https://www.typescriptlang.org/docs/handbook/utility-types.html#extracttype-union
+// MouseEvent can be assigned since we required only the type property to be "click", we don't care about the other properties
+type ClickEvent = Extract<Event, { type: "click" }>;
 
 type tests = [Expect<Equal<ClickEvent, { type: "click"; event: MouseEvent }>>];
