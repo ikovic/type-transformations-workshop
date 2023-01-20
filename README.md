@@ -1,3 +1,7 @@
+# Solutions and notes: Total TypeScript - Type transformations
+
+This repository contains my notes and solutions for the Total Typescript - Type transformations workshop. The original problem solutions are still in the repo, with the `.solution` suffix. My solutions and notes use the `.sol` suffix.
+
 <a href="https://totaltypescript.com"><img src="./og-image-new.png" /></a>
 
 ## Quickstart
